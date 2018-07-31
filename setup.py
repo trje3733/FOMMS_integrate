@@ -16,6 +16,7 @@ setup(
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     license='MIT',
+    install_requires=['numpy',],
 
     # Which Python importable modules should be included when your package is installed
     packages=['FOMMS_integrate', "FOMMS_integrate.tests"],
