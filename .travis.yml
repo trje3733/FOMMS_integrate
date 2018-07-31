@@ -20,6 +20,10 @@ matrix:
       python: 3.6
       env: PYTHON_VER=3.6
 
+    - os: windows
+      python: 3.6
+      env: PYTHON_VER=3.6
+
 before_install:
     # Additional info about the build
   - uname -a
