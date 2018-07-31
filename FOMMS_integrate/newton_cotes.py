@@ -12,6 +12,8 @@ This file contains the implementation of the trapezoidal rule
 
 import numpy as np
 
+# helllloooooooo
+
 def trapz(x, f):
     """ 
     Compute a 1D definite integral using the trapezoidal rule
